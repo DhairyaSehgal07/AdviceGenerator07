@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+
+:root{
+    --Light_Cyan: hsl(193, 38%, 86%);
+    --Neon_Green: hsl(150, 100%, 66%); 
+    --Grayish_Blue: hsl(217, 19%, 38%);
+    --Dark_Grayish_Blue: hsl(217, 19%, 24%);
+    --Dark_Blue: hsl(218, 23%, 16%);
+
+}
+
+
+#Advice{
+    font-family: 'Urbanist', sans-serif;
+    color: var(--Light_Cyan);
+    font-weight: 800;
+    font-size: 28px;
+}
+
+#glowingButton{
+    cursor:pointer;
+}
+
+
+#glowingButton:hover {
+    box-shadow: 0 0 10px hsl(150, 100%, 66%), 0 0 20px hsl(150, 100%, 66%), 0 0 30px hsl(150, 100%, 66%);
+}
+
+#glowingButton:active{
+    transform: scale(0.9);
+}
